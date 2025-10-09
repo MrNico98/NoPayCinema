@@ -16,7 +16,7 @@ from telegram.ext import (
 
 # --- Config ---
 DB_PATH = os.getenv("DB_PATH", "users.db")
-BOT_TOKEN = os.getenv("BOT_TOKEN")
+BOT_TOKEN = os.getenv("8085352325:AAGmDYhTbk7qA6-DWl-e-dwIyqws0viMS6Q")
 if not BOT_TOKEN:
     raise RuntimeError("Missing BOT_TOKEN environment variable")
 
@@ -194,3 +194,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
